@@ -6,7 +6,7 @@
         "npm": "6.14.7"
     },
     "description": "Simple HTTP homework assignment for week 1",
-    "main": "./index.js",
+    "main": "./src/server.js",
     "scripts": {
         "start": "node ./src/server.js",
         "pretest": "eslint ./src --fix",
