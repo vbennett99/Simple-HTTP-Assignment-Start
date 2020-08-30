@@ -1,0 +1,30 @@
+{
+    "name": "simple-http-hw",
+    "version": "1.0.0",
+    "engines": {
+        "node": "14.8.0",
+        "npm": "6.14.7"
+    },
+    "description": "Simple HTTP homework assignment for week 1",
+    "main": "./index.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests complete\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vbennett99/Simple-HTTP-Assignment-Start.git"
+    },
+    "author": "Vincent Bennett",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/vbennett99/Simple-HTTP-Assignment-Start/issues"
+    },
+    "homepage": "https://github.com/vbennett99/Simple-HTTP-Assignment-Start#readme",
+    "devDependencies": {
+        "eslint": "^7.7.0",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-plugin-import": "^2.22.0"
+    }
+}
